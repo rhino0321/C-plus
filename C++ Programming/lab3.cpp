@@ -33,21 +33,15 @@ int main()
     switch(x)
     {
         case 'A':
-            sum=30*y;
-            break;
-        case 'B':
-            sum=20*y;
-            break;
-        case 'C':
-            sum=40*y;
-            break;
         case 'a':
             sum=30*y;
             break;
+        case 'B':
         case 'b':
             sum=20*y;
             break;
-        case 'c':
+        case 'C':
+        case 'c'"
             sum=40*y;
             break;
     }
