@@ -14,7 +14,7 @@ int main()
     }
     fscanf(in , "%d\n" , &n);
     fscanf(in , "%d\n" , &m);
-    int arr1[m][v],numofrow=0, numofref=1, numofcolumn=0, numofHref=m;
+    int arr1[m][n],numofrow=0, numofref=1, numofcolumn=0, numofHref=m;
     int H[n-m][n], Htranspose[n][n-m], ans[m][n-m], oneindex, identity[m];
     int **arr = malloc(m * sizeof(int *));
     for (int i = 0; i < m; i++)
