@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-int m,v;
 void gauss(int **, int, int, int);
 void gaussinverse(int **, int, int, int);
 int main()
