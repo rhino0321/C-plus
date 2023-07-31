@@ -5,10 +5,10 @@ class Complex {
 public:
     Complex(){}
     Complex(float real_val, float image_val):real(real_val), image(image_val){}
-    const Complex operator+(const Complex& amount1){
+    const Complex operator+(const Complex& amount1) const{
         return Complex(real + amount1.getReal(), image + amount1.getImage());
     }
-    const Complex operator-(const Complex& amount1){
+    const Complex operator-(const Complex& amount1) const{
         return Complex(real - amount1.getReal(), image - amount1.getImage());
     }
     float getReal() const{
