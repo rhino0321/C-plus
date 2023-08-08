@@ -15,8 +15,8 @@ class Node
             delete right;
         }
     private:
-        Node* left;
-        Node* right;
+        Node<T>* left;
+        Node<T>* right;
         Node<T>* insert(Node<T>*, T);
         void printInOrder(const Node<T>*) const;
 };
