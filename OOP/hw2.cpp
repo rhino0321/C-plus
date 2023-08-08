@@ -2,7 +2,7 @@
 #include <string>
 #include <sstream>
 using namespace std;
-
+/* use template to fullfill binary tree */
 template<class T>
 class Node
 {
