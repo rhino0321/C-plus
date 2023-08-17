@@ -1,4 +1,4 @@
-/* siz£|: sides of die */
+/* size : sides of die */
 /* time of rolling die */
 #include <stdio.h>
 #include <stdlib.h>
